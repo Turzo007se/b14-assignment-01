@@ -1,1 +1,68 @@
+:root {
+    --primary-color-white: white;
+    --secondary-text-color: #575757;
+    --secondary-color-blue: #1D4ED8;
+    --font-family-inter: "Inter", sans-serif;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.btn-common {
+    padding: 12px 41px;
+    color: var(--primary-color-white);
+    background-color: var(--secondary-color-blue);
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outer {
+    padding: 12px 41px;
+    color: var(--secondary-color-blue);
+    background-color: var(--primary-color-white);
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 700px;
+    border: 1px solid var(--secondary-color-blue);
+    border-radius: 5px;
+}
+
+/* //start nav style */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23.5px 0px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding: 12px 0px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-inter);
+    font-size: 18px;
+    font-weight: 500px;
+
+}
+
+/* end nav style  */
