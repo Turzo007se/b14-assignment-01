@@ -66,3 +66,36 @@ header nav ul li a {
 }
 
 /* end nav style  */
+
+/* start hero section style  */
+.hero {
+    text-align: center;
+    padding-top: 136px;
+    padding-bottom: 26px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: var(--primary-color-white);
+    font-family: var(--font-family-inter);
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    color: var(--primary-color-white);
+    font-family: var(--font-family-inter);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 331px;
+}
+
+
+
+/* end hero section style  */
