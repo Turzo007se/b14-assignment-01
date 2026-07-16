@@ -22,7 +22,7 @@
     background-color: var(--secondary-color-blue);
     font-family: var(--font-family-inter);
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     border: none;
     border-radius: 5px;
 }
@@ -33,7 +33,7 @@
     background-color: var(--primary-color-white);
     font-family: var(--font-family-inter);
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     border: 1px solid var(--secondary-color-blue);
     border-radius: 5px;
 }
@@ -61,7 +61,7 @@ header nav ul li a {
     color: var(--secondary-text-color);
     font-family: var(--font-family-inter);
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
 
 }
 
@@ -109,7 +109,7 @@ header nav ul li a {
     margin-bottom: 56px;
     font-family: var(--font-family-inter);
     font-size: 56px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .speakers .speakers-blog {
@@ -133,7 +133,7 @@ header nav ul li a {
     padding-left: 24px;
     font-family: var(--font-family-inter);
     font-size: 12px;
-    font-weight: 600px;
+    font-weight: 600;
     color: var(--secondary-color-blue);
 }
 
@@ -143,7 +143,7 @@ header nav ul li a {
     padding-left: 24px;
     font-family: var(--font-family-inter);
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
 
 }
 
@@ -152,9 +152,102 @@ header nav ul li a {
     padding-left: 24px;
     font-family: var(--font-family-inter);
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     color: var(--secondary-text-color);
 
 }
 
 /* end speakers section style  */
+
+/* start pricing section style  */
+.secure-your-spot {
+    text-align: center;
+}
+
+.secure-your-spot h1 {
+    font-family: var(--font-family-inter);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.secure-your-spot p {
+    font-family: var(--font-family-inter);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.secure-your-spot .price_card_box {
+    margin-top: 48px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.secure-your-spot .price_card {
+    flex: 1;
+    padding: 32px;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.secure-your-spot .price_card h4 {
+    font-family: var(--font-family-inter);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+.secure-your-spot .price_card h2 {
+    font-family: var(--font-family-inter);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.secure-your-spot .price_card p {
+    font-family: var(--font-family-inter);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+
+.secure-your-spot .price_card hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secure-your-spot .price_card ul {
+    margin-bottom: 20px;
+}
+
+.secure-your-spot .price_card ul li {
+    font-family: var(--font-family-inter);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #333333;
+}
+
+.secure-your-spot #pro {
+    color: var(--primary-color-white);
+    background-color: #0D1B2A;
+}
+
+.secure-your-spot #pro h4 {
+    color: var(--secondary-color-blue);
+}
+
+.secure-your-spot #pro li {
+    color: var(--primary-color-white);
+}
+
+.secure-your-spot .price_card ul li::marker {
+    color: var(--secondary-color-blue);
+}
+
+/* end pricing section style  */
