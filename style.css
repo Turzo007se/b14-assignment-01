@@ -96,6 +96,65 @@ header nav ul li a {
     margin-bottom: 331px;
 }
 
-
-
 /* end hero section style  */
+
+/* start speakers section style  */
+.speakers {
+    padding-top: 80px;
+    padding-bottom: 136px;
+    text-align: center;
+}
+
+.speakers h1 {
+    margin-bottom: 56px;
+    font-family: var(--font-family-inter);
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+.speakers .speakers-blog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 32px;
+}
+
+.speakers .speakers-card {
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.speakers .speakers-card img {
+    width: 100%;
+}
+
+.speakers .speakers-card h4 {
+    margin-top: 24px;
+    padding-left: 24px;
+    font-family: var(--font-family-inter);
+    font-size: 12px;
+    font-weight: 600px;
+    color: var(--secondary-color-blue);
+}
+
+.speakers .speakers-card h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 24px;
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+.speakers .speakers-card p {
+    margin-bottom: 24px;
+    padding-left: 24px;
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 500px;
+    color: var(--secondary-text-color);
+
+}
+
+/* end speakers section style  */
